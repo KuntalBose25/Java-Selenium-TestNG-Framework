@@ -48,7 +48,7 @@ public class TestCase01 extends Base {
         //2. Navigate to url 'http://automationexercise.com'
         driver.get("https://www.automationexercise.com/");
 
-        
+
         //3. Verify that home page is visible successfully
         Assert.assertTrue(homepage.isHomePageDisplayed());
         //4. Click on 'Signup / Login' button

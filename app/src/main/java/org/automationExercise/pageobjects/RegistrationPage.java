@@ -14,10 +14,14 @@ import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPage {
 
+    // TestNG listener & extent report
+    // adding notes
+    //notes added2
     private WebDriver driver;
 
-    @FindBy(xpath = "//input[@name='title'][@value='Mr']")
-    public WebElement titleRadioButton;
+
+    //@FindBy(xpath = "//input[@name='title'][@value='Mr']")
+    //public WebElement titleRadioButton;
 
     @FindBy(id = "password")
     private WebElement setPassword;

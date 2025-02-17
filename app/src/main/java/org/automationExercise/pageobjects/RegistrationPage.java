@@ -14,7 +14,9 @@ import org.openqa.selenium.support.ui.Select;
 
 public class RegistrationPage {
 
+    // TestNG listener & extent report
     private WebDriver driver;
+
 
     //@FindBy(xpath = "//input[@name='title'][@value='Mr']")
     //public WebElement titleRadioButton;

@@ -18,6 +18,7 @@ public class Data {
 
     @DataProvider(name = "excelData")
     public static Object[][] getData(Method m) throws IOException{
+        
         int rowIndex = 0;
         int cellIndex=0;
         List<List> outputList = new ArrayList<>();

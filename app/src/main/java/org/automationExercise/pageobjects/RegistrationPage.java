@@ -15,6 +15,7 @@ import org.openqa.selenium.support.ui.Select;
 public class RegistrationPage {
 
     // TestNG listener & extent report
+    // adding notes
     private WebDriver driver;
 
 

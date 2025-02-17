@@ -16,8 +16,8 @@ public class RegistrationPage {
 
     private WebDriver driver;
 
-    @FindBy(xpath = "//input[@name='title'][@value='Mr']")
-    public WebElement titleRadioButton;
+    //@FindBy(xpath = "//input[@name='title'][@value='Mr']")
+    //public WebElement titleRadioButton;
 
     @FindBy(id = "password")
     private WebElement setPassword;

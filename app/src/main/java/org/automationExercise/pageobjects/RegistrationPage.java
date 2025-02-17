@@ -16,6 +16,7 @@ public class RegistrationPage {
 
     // TestNG listener & extent report
     // adding notes
+    //notes added2
     private WebDriver driver;
 
 
